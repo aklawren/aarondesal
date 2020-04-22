@@ -1,0 +1,50 @@
+body {
+   max-width: 700px;
+   margin: auto;
+   background-color: white;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  margin-top:  50px;
+}
+
+.logo {
+  /* border: 2px solid lightblue; */
+  width: 50%;
+  height: 100%;
+  font-size: xxx-large;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid pink; */
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutBody{
+  display:flex;
+  margin-top: 20px;
+}
+
+.aboutText{
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
