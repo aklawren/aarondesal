@@ -48,3 +48,7 @@ img{
   height: 100%;
   width: 100%;
 }
+
+.projectContainer{
+  margin: 20px;
+}
