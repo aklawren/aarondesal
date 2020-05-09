@@ -1,5 +1,5 @@
 body {
-   max-width: 700px;
+   /* max-width: 700px; */
    margin: auto;
    background-color: white;
 }
@@ -9,14 +9,12 @@ body {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-content: stretch;
-  margin-top:  50px;
 }
 
 .logo {
-  /* border: 2px solid lightblue; */
-  width: 50%;
-  height: 100%;
-  font-size: xxx-large;
+  margin: 50px;
+  height: 120px;
+  width: 200px;
 }
 
 .topNav {
@@ -34,21 +32,110 @@ a {
 }
 
 .aboutBody{
-  display:flex;
+  margin: 75px;
   margin-top: 20px;
 }
 
 .aboutText{
-  margin-left: 20px;
   letter-spacing: 1px;
   line-height: 1.5;
+  font-size:1.2em;
 }
 
 img{
   height: 100%;
   width: 100%;
+  margin:auto;
 }
 
 .projectContainer{
-  margin: 20px;
+  margin: 80px;
+  margin-top:0px;
+}
+
+
+.launchTile {
+    border: 1px solid lightgray;
+    height: 50xp;
+    height: 50vh;
+    max-height: 50vw;
+    width: 50vw;
+    max-width: 50vh;
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh auto;
+}
+.bottomLine {
+    font-size: 5em;
+    margin: auto;
+    font-family: 'Anton', sans-serif;
+}
+.topLine {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    margin: auto;
+    text-align: center;
+}
+
+.heroImg{
+  margin: 50px;
+  object-fit: cover;
+  height: 75vh;
+  width: 90vw;
+}
+
+.sectionHeader{
+  font-size: 2em;
+  margin: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sloganText{
+  margin: 50px;
+  font-size: 5em;
+  font-family: 'Lobster', cursive;
+  margin-top: -50px;
+}
+
+.projectName {
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.projectTitle{
+  display:flex;
+  font-size:1.3em;
+  flex-direction: column;
+  margin-left:80px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+@media only screen and (min-width: 800px) {
+  .aboutBody {
+    display: flex;
+  }
+  .aboutText {
+    margin: 30px;
+    text-align: justify;
+  }
+
+
+  /*project section*/
+  .projectContainer{
+    display:flex;
+  }
+  .imgSection{
+    object-fit:cover;
+    min-width: 600px;
+    max-width: 600px;
+  }
+  .projectTitle{
+    flex-direction: row;
+  }
+}
+
+section{
+  margin:50px;
 }
